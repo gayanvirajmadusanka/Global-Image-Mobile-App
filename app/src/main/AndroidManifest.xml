@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.globalimage">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".ActivityContactUs"></activity>
+        <activity android:name=".ActivityOurTeam" />
+        <activity android:name=".ActivityPlanEvent" />
+        <activity android:name=".ActivityTutorials" />
+        <activity android:name=".FragmentIllustrator" />
+        <activity android:name=".FragmentPremierPro" />
+        <activity android:name=".FragmentAfterEffects" />
+        <activity android:name=".FragmentPhotoshop" />
+        <activity android:name=".FragmentLightroom" />
+        <activity android:name=".TutorialTabFragment3" />
+        <activity android:name=".TutorialTabFragment2" />
+        <activity android:name=".TutorialTabFragment1" />
+        <activity android:name=".ActivityPackage" />
+        <activity android:name=".ActivitySignUp" />
+        <activity android:name=".ActivitySetting" />
+        <activity android:name=".ActivityLogIN">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ActivityGiWall"
+            android:label="GI Wall" />
+        <activity
+            android:name=".Main2Activity"
+            android:label="My Profile" />
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+
+            <!--
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+            -->
+
+        </activity>
+    </application>
+
+</manifest>

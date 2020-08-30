@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActivityTutorials"
+    android:weightSum="5"
+    android:orientation="vertical"
+    android:background="@color/_light_green">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="7dp"
+        android:layout_margin="7dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:weightSum="3"
+        android:background="@color/dark_orange">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="7dp"
+            android:layout_weight="2">
+
+            <ImageView
+                android:layout_centerInParent="true"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/photoshop" />
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="7dp"
+            android:layout_weight="1">
+
+            <Button
+                android:id="@+id/btnPhotoshopTutorials"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Adobe photoshop tutorials"
+                android:background="@color/cadet_blue"
+                android:textAllCaps="false"/>
+
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="7dp"
+        android:layout_weight="1"
+        android:layout_margin="7dp"
+        android:background="@color/dark_orange">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="7dp"
+            android:layout_weight="2">
+
+            <ImageView
+                android:layout_centerInParent="true"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/lightroom" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="7dp"
+            android:layout_weight="1">
+
+            <Button
+                android:id="@+id/btnLightroomTutorials"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Adobe Lightroom tutorials"
+                android:background="@color/cadet_blue"
+                android:textAllCaps="false"/>
+
+
+        </RelativeLayout>
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="7dp"
+        android:layout_weight="1"
+        android:layout_margin="7dp"
+        android:background="@color/dark_orange">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="7dp"
+            android:layout_weight="2">
+
+            <ImageView
+                android:layout_centerInParent="true"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/illustrator" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="7dp"
+            android:layout_weight="1">
+
+            <Button
+                android:id="@+id/btnIllusratorTutorials"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Adobe Illustrator tutorials"
+                android:background="@color/cadet_blue"
+                android:textAllCaps="false"/>
+
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="7dp"
+        android:layout_weight="1"
+        android:layout_margin="7dp"
+        android:background="@color/dark_orange">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="7dp"
+            android:layout_weight="2">
+
+            <ImageView
+                android:layout_centerInParent="true"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/premier" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="7dp"
+            android:layout_weight="1">
+
+            <Button
+                android:id="@+id/btnPremierTutorials"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Adobe Premier Pro tutorials"
+                android:background="@color/cadet_blue"
+                android:textAllCaps="false"/>
+
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="7dp"
+        android:layout_weight="1"
+        android:layout_margin="7dp"
+        android:background="@color/dark_orange">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="7dp"
+            android:layout_weight="2">
+
+            <ImageView
+                android:layout_centerInParent="true"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/aftereffects" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="7dp"
+            android:layout_weight="1">
+
+            <Button
+                android:id="@+id/btnAfterTutorials"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Adobe after effects tutorials"
+                android:background="@color/cadet_blue"
+                android:textAllCaps="false"/>
+
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

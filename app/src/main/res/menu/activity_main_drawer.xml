@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_login"
+            android:icon="@drawable/ic_contacts_black_24dp"
+            android:title="Log In | Sign Up" />
+
+        <item
+            android:id="@+id/nav_my_profile"
+            android:icon="@drawable/ic_person_black_24dp"
+            android:title="My Profile" />
+        <item
+            android:id="@+id/nav_gi_wall"
+            android:icon="@drawable/ic_art_track_black_24dp"
+            android:title="GI Wall" />
+        <item
+            android:id="@+id/nav_plan_event"
+            android:icon="@drawable/ic_assignment_turned_in_black_24dp"
+            android:title="Plan Event" />
+        <item
+            android:id="@+id/nav_packages"
+            android:icon="@drawable/ic_monetization_on_black_24dp"
+            android:title="Packages" />
+
+        <item
+            android:id="@+id/nav_tutorials"
+            android:icon="@drawable/ic_laptop_chromebook_black_24dp"
+            android:title="Tutorials" />
+
+
+
+
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_our_team"
+                android:icon="@drawable/ic_recent_actors_black_24dp"
+                android:title="Our Team" />
+            <item
+                android:id="@+id/nav_contact_us"
+                android:icon="@drawable/ic_contact_phone_black_24dp"
+                android:title="Contact Us" />
+
+            <item
+                android:id="@+id/nav_setting"
+                android:icon="@drawable/ic_menu_manage"
+                android:title="Settings" />
+        </menu>
+    </item>
+
+
+
+</menu>
